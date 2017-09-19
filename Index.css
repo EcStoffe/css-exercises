@@ -1,0 +1,26 @@
+#div-1 {
+    font-size: 25px;
+}
+
+.firstP{
+    font-size: 80px; color: blueviolet;
+}
+
+.secondP{
+    font-size: 25px;
+}
+
+a[href^="http://"] {
+    color: green;
+}
+
+a[href$=".se"] {
+    color: black;
+}
+
+a[href*="uber"] {
+    color: mediumvioletred;
+}
+
+a[href$=".se"] {
+    color: black;
