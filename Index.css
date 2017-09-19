@@ -11,16 +11,37 @@
 }
 
 a[href^="http://"] {
-    color: green;
+    color: green; text-decoration: none;
 }
 
 a[href$=".se"] {
-    color: black;
+    color: black; text-decoration: none;
 }
 
 a[href*="uber"] {
-    color: mediumvioletred;
+    color: mediumvioletred; text-decoration: none;
 }
 
-a[href$=".se"] {
-    color: black;
+a[href$="html"] {
+    color: yellow; text-decoration: none;
+}
+
+h1 {
+    background-color: green;
+}
+
+body p {
+    background-color: red;
+}
+
+div > p {
+    background-color: yellow;
+}
+
+div + p {
+    background-color: pink;
+}
+
+#non-bullet {
+    list-style-type: none; text-transform: lowercase;
+}
