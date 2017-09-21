@@ -1,0 +1,42 @@
+p:first-child:first-line {
+    color: rgba(255,40,0,0.84);
+}
+
+article:before {
+    content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Sparkler.JPG/250px-Sparkler.JPG");
+
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+ul {
+    text-align: center;
+}
+
+div {
+    height: 150px;
+    width: 600px;
+    background-color: gold;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Sparkler.JPG/250px-Sparkler.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
