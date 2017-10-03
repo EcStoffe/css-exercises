@@ -1,0 +1,104 @@
+body {
+    font-family: "Microsoft JhengHei Light";
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10%;
+    align-items: center;
+    margin-top: 3%;
+    font-size: 200%;
+}
+
+.logo-container {
+    margin-right: 10%;
+}
+
+.flex-header {
+    justify-content: center;
+    color: darkslategrey;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid blue 3px;
+    border-bottom: solid blue 3px;
+}
+
+ul {
+    list-style: none;
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-main {
+    width: 100%;
+    height: 400px;
+    background-image: url('Images/600x400main.png');
+    margin-top: 2%;
+}
+
+.welcome-header {
+    font-size: 40px;
+    margin-top: 3%;
+}
+
+.red-word {
+    color: red;
+}
+.paragraph-container {
+    font-size: 30px;
+
+}
+
+.best-selling {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.best-selling-products {
+    border: solid darkslategrey 1px;
+    margin-top: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 30px;
+    width: 100%;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.product-item {
+    font-size: 200%;
+    margin-top: 5%;
+}
+
+.product-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.img-product {
+    width: 50%;
+
+}
