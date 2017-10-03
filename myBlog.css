@@ -1,0 +1,56 @@
+header {
+    text-align: center;
+    border: solid 2px black;
+    padding: 100px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    font-size: 200%;
+    color: black;
+    background-image: url("https://www.ica.se/Global/_online/categorycampaign/kategori-kott-fagel-fisk/egen-fiskdisk/egen-fiskdisk.jpg")
+}
+
+nav ul {
+    text-decoration: none;
+    text-align: center;
+    border: solid black 2px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(255,50,39,0.84);
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+
+}
+
+
+article {
+    border: solid black 1px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer div {
+   text-align: center;
+   background-color: rgba(255,50,39,0.84);
+   border: solid black 2px;
+
+}
+
+article:hover:not(footer) {
+    color: rgba(255,50,39,0.84);
+}
+
+article p {
+    font-size: larger;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
